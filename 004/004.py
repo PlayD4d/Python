@@ -1,6 +1,3 @@
-# ODc5NDQ4OTQ2NjA5NjM5NDU0.YSP4qA.jD-gKTC1wMeDVuXJiDfyD7PHQsQ
-# https://discord.com/api/oauth2/authorize?client_id=879448946609639454&permissions=259846040640&scope=bot
-
 import random
 import discord
 from discord.ext import commands
@@ -32,4 +29,4 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-bot.run('ODc5NDQ4OTQ2NjA5NjM5NDU0.YSP4qA.jD-gKTC1wMeDVuXJiDfyD7PHQsQ')
+bot.run('SECRET_TOKEN')
